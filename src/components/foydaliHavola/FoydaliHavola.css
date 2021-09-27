@@ -1,0 +1,17 @@
+.foydaliHavola {
+    color: #09a669;
+    font-weight: 300;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.foydaliHavola-container {
+  margin-top: 15px !important;
+  margin-bottom: 40px !important;    
+  border-width: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  
+  background-color: rgb(255, 255, 255);
+  box-shadow: 12.638px 16.771px 32px 0px rgba(2, 3, 29, 0.06);      
+}

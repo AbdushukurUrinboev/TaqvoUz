@@ -1,0 +1,142 @@
+.infog_photo .uk-panel {
+    position: relative; }
+.infog_photo .uk-overlay {
+    padding: 20px 10px;
+    background: #099d64;
+    line-height: 16px; 
+}
+.infog_photo .uk-overlay a {
+      color: #ffffff;
+      font-family: "Montserrat-light";
+      font-size: 13px;
+      font-weight: 300;
+      -webkit-transition: all 0.5s ease-in;
+      -o-transition: all 0.5s ease-in;
+      transition: all 0.5s ease-in; }
+      @media (max-width: 640px) {
+        .infog_photo .uk-overlay a {
+          font-size: 12px; } }
+       .infog_photo .uk-overlay a:focus, .infog_photo .uk-overlay a:hover {
+        text-decoration: none; }
+  .infog_photo img {
+    width: 78%;
+    /* height: 100%; */
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 15px;
+    -o-object-fit: cover;
+    object-fit: cover; 
+}
+    @media (max-width: 640px) {
+      .infog_photo img {
+        height: 150px; 
+    } }
+
+    .manual-mystyle-dolzarb {
+      width: 75%;
+      margin: 0 35px;
+    }
+    
+    
+.container-manual {
+  position: relative;
+  width: 82%;
+  margin-left: 30px;
+  margin-bottom: 15px;  
+  
+}
+
+.image-mystyle {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  
+}
+
+
+.overlay-mystyle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  border-radius: 20px;
+  transition: .5s ease;
+  background-color: #09a367;
+}
+
+.container-manual:hover .overlay-mystyle {
+  opacity: 1;
+}
+
+.text-mystyle {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;}
+
+  .manual-pos {
+    margin-bottom: 10px;
+    margin-top: 0  auto;
+    
+  }
+  .manual-pos p {
+    margin: 5px 0;    
+  }
+
+  .manual-pos span {        
+    text-align: left !important;
+    font-size: 13px;
+  }
+
+  .man-for-this {
+    margin-bottom: 0;
+    
+  }
+
+  .man-for-this:hover {
+    color: #09a367;
+    font-weight: 300;
+  }
+
+  .lili img {
+    width: 82%;
+    margin-left: 20px;
+  }
+
+  .lili p {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 14px;    
+  }
+
+  .lili span {
+    margin-left: 10px;    
+  }
+
+  .myOwnStyle {
+    margin-bottom: 12px;
+  }
+
+  .own-style-st {
+    margin-top: 0;
+    
+  }
+  .own-style-st span {
+    margin-left: 0 auto;    
+  }
+.own-style-st p {
+  font-size: 15px;
+  margin-left: -5px;
+  
+}
+

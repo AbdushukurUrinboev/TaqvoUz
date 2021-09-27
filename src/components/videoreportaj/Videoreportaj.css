@@ -1,0 +1,39 @@
+.reportaj-my-style { 
+  border-width: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 12.638px 16.771px 32px 0px rgba(2, 3, 29, 0.06);  
+  padding: 50px; 
+  margin-top: -66px;   
+}
+.reportaj-text-style {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.line-reportaj { 
+  background-color: rgb(9, 164, 101);  
+  width: 65px;
+  height: 5px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.but-rep {
+  text-align: center !important;
+  margin: auto !important;
+}
+
+.videoreportaj-st {
+  margin-top: 50px;
+}
+
+
+
+    
+  
+  
+
+
+

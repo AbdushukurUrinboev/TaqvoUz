@@ -1,0 +1,16 @@
+body {
+    background-image: url(./naqsh1.png) !important;
+    background-repeat: repeat;}
+     @media (max-width: 960px) {
+    body {      
+      background-image: url(./naqsh1.png) !important;
+      background-repeat: repeat;}}
+  @media (max-width: 960px) {
+    body {
+      background-image: url(./naqsh1.png) !important;
+      background-repeat: repeat;}}
+
+html {
+    background-image: url(./naqsh1.png) !important;
+      background-repeat: repeat;
+}

@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"), url("../fonts/Montserrat-Bold.woff") format("woff"), url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat-light';
+  src: url("../fonts/Montserrat-Light.woff2") format("woff2"), url("../fonts/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Montserrat Light Italic';
+  src: url("../fonts/Montserrat-LightItalic.woff2") format("woff2"), url("../fonts/Montserrat-LightItalic.woff") format("woff"), url("../fonts/Montserrat-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Lato Medium';
+  src: url("../fonts/lato_medium.woff2") format("woff2"), url("../fonts/lato_medium.woff") format("woff"), url("../fonts/lato_medium.ttf") format("truetype");
+  font-weight: normal; }
+
+
+.myEffect {
+  background-color: #ffffff;  
+  border-width: 1px;
+  border-color: rgb(234, 234, 234);
+  border-style: solid;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 12.638px 16.771px 32px 0px rgba(2, 3, 29, 0.06);  
+  width: 1197px;
+  height: 404px;
+  z-index: 191;
+}  
+.fourth {
+  margin-top: 35px;  
+}
+
+
+  .fourth .green_question {
+    background-color: #09a465;
+    background-image: url("./img/question_icon1.png"), url("./img/question_icon3.png"), url("./img/question_icon2.png");
+    background-repeat: no-repeat;
+    border-radius: 30px 30px 0 0;
+    background-position: left 0 top 0, left 27% top 20px, left 50% top 40px;
+    padding: 50px 30px 50px 70px; }
+    @media (max-width: 640px) {
+      .fourth .green_question {
+        background-image: none;
+        padding: 25px 15px; } }
+  .fourth .name_section {
+    color: #ffffff;
+    font-family: "Montserrat Bold";
+    font-size: 24px;
+    text-transform: uppercase; }
+    @media (max-width: 1200px) {
+      .fourth .name_section {
+        font-size: 20px; } }
+    @media (max-width: 640px) {
+      .fourth .name_section {
+        font-size: 16px;
+        text-align: center; } }
+
+.give_question_button {
+    margin-top: 20px;
+  text-align: center; }
+  .give_question_button .uk-button {
+    background: #09a465;
+    font-family: "Montserrat Bold";
+    font-size: 14px;
+    text-transform: none;
+    margin-top: 10px; }
+    @media (max-width: 640px) {
+      .give_question_button .uk-button {
+        font-size: 12px;
+        margin-top: 0;
+        padding: 0 50px;
+        line-height: 40px;
+        width: 100%; } }
+
+.yashil {
+  background-color: #09a465;
+}
+.yashil:hover {
+  background-color: #46ad84;
+}
